@@ -1,0 +1,78 @@
+/* Project_86_3/App_86_3/static/App_86_3/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header, .footer {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 15px;
+}
+
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.skills li {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.profile-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px; /* Passport-size width */
+    height: 50px; /* Passport-size height */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+

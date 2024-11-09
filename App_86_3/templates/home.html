@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Rashmika G</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        /* Styling for the main title "Resume" in black color */
+        .resume-title {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #000; /* Black color for main title */
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .header, .section {
+            margin-bottom: 20px;
+        }
+        /* Styling for Rashmika's name with blue color and blur */
+        .header h1 {
+            font-size: 32px;
+            color: #007bff;
+            text-shadow: 1px 1px 6px rgba(0, 123, 255, 0.5);
+            margin: 0;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #555;
+        }
+        /* Styling for section headings with blue color and blur */
+        .section h2 {
+            font-size: 24px;
+            color: #007bff;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 6px rgba(0, 123, 255, 0.5); /* Blue blur effect */
+        }
+        .section .content {
+            padding-left: 10px;
+        }
+        .skills, .education, .experience, .hobbies {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .education li, .experience li, .hobbies li {
+            margin-bottom: 10px;
+        }
+        /* Profile image styling */
+        .profile-image img {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Centered Resume Heading with black color -->
+    <h1 class="resume-title">Resume</h1>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Rashmika G</h1>
+            <p>Email: 2310080086@klh.edu.in | Phone: 7685346793 | Address: Hyderabad, India</p>
+        </div>
+
+        <!-- Profile Image -->
+        <div class="profile-image">
+            <img src="{% static 'C:/Users/Rashmika/Desktop/Django projects/Project_86_3/static/Screenshot 2024-11-08 135127.png' %}" alt="Profile Picture">
+        </div>
+
+        <!-- Profile Section -->
+        <div class="section">
+            <h2>Profile</h2>
+            <p class="content">Passionate and goal-driven individual with strong skills in project management and teamwork. Demonstrated experience in academic projects and co-curricular activities, enhancing both technical and soft skills.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills content">
+                <li>Programming: C, Python, JAVA, HTML, CSS, JavaScript, Powerbi</li>
+                <li>Web Development: Basic knowledge of Django and web design principles</li>
+                <li>Project Management: Did many events and organised them in colleges.</li>
+                <li>Effective Communication: Knowledge of languages are Telugu, English, Hindi, Tamil, Kannada, Sanskrit.</li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <ul class="education content">
+                <li><strong>High School(CBSE Board)</strong> - 88%</li>
+                <li><strong>Intermediate(CBSE Board)</strong> - 95%</li>
+                <li><strong>Btech-1st year(University Board)</strong> - 90.23%</li>
+            </ul>
+        </div>
+
+        <!-- Professional Experience Section -->
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <ul class="experience content">
+                <li>
+                    <strong>Project: Appointment Guru</strong> - College Project
+                    <p>Developed a project focused on appointment scheduling, improving time management and organizational skills.</p>
+                </li>
+                <li>
+                    <strong>Science Olympiad Participant</strong> - School
+                    <p>Participated in a national-level science Olympiad, enhancing analytical and scientific skills.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Hobbies Section -->
+        <div class="section">
+            <h2>Hobbies</h2>
+            <ul class="hobbies content">
+                <li>Dancing: I like dancing as it makes my mood happy and feel energetic.</li>
+                <li>Singing: I like listening songs and singing it makes me smile and relaxes my body.</li>
+                <li>Watching Movies: I love to watch movies as I am mad about movies, I never miss any movie which comes and I always like to watch them because I laugh, I cry and I even enjoy why seeing movies.</li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section">
+            <h2>Contact</h2>
+            <p class="content">  I am a dedicated and proactive individual with a passion for continuous learning and professional growth. I look forward to utilizing my skills and experiences to make a positive impact in a dynamic and challenging work environment. I am eager to contribute to a team that values innovation, collaboration, and excellence.Feel free to reach out via email at 2310080086@klh.edu.in or call at 7685346793.</p>
+        </div>
+    </div>
+</body>
+</html>
